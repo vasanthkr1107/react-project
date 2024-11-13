@@ -1,0 +1,52 @@
+/* Signup Page Styling */
+.signup {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.signup h2 {
+  color: #ff4d4d;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-form input {
+  width: 80%;
+  max-width: 400px;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.signup-form button {
+  padding: 1rem 2rem;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.signup-form button:hover {
+  background-color: #e60000;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.success-message {
+  color: green;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
