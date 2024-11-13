@@ -1,0 +1,43 @@
+/* Login Page Styling */
+.login {
+  padding: 2rem;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login h2 {
+  color: #ff4d4d;
+  margin-bottom: 2rem;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login form input {
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login form button {
+  padding: 1rem;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login form button:hover {
+  background-color: #e60000;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
