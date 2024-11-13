@@ -1,0 +1,34 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.register h2 {
+  margin-bottom: 20px;
+}
+
+.register form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.register input, .register select, .register button {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.register button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.register .error {
+  color: red;
+  margin-bottom: 15px;
+}
